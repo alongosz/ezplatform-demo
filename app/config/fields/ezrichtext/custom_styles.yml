@@ -1,0 +1,15 @@
+ezpublish:
+    system:
+        admin_group:
+            fieldtypes:
+                ezrichtext:
+                    custom_styles: [cyan_block, yellow_marker]
+
+    ezrichtext:
+        custom_styles:
+            cyan_block:
+                template: '@ezdesign/fields/ezrichtext/custom_styles/cyan_block.html.twig'
+                inline: false
+            yellow_marker:
+                template: '@ezdesign/fields/ezrichtext/custom_styles/yellow_marker.html.twig'
+                inline: true

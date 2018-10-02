@@ -1,0 +1,8 @@
+{% spaceless %}
+    <div class="ezstyle-{{ name }}"
+         style="{% if align is defined %}text-align: {{ align }};{% endif %};
+                 background-color: cyan;
+                 border: dashed 1px black;">
+        {{ content|raw }}
+    </div>
+{% endspaceless %}
